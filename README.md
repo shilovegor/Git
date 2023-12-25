@@ -10,10 +10,10 @@ Git — это система контроля версий, доступная 
 ##### Создание, клонирование, отправка и извлечение репозиториев 
 ```git
 git init shilovegor                                        # Создайте свой репозиторий с тем же именем, что и ваше имя пользователя. 
-git clone git@github.com:githab/shilovegor.git        # Клонируйте репозиторий на своем компьютере в отдельную папку.
+git clone git@github.com:git/shilovegor.git        # Клонируйте репозиторий на своем компьютере в отдельную папку.
 git clone git@github.com:testrusau/testrusau.git            # Клонируйте github.com/testrusau/testrusau на своем компьютере в отдельную папку.
 cd testrusau                                                # Перенесите данные из репозитория testrusau в свой собственный. 
-git push git@github.com:githu/testrusau.git main:main
+git push git@github.com:git/testrusau.git main:main
 git commit -m "new commit"                                  # Откройте файл README.md и замените каждый блок отдельным коммитом.
 git push 
 
@@ -23,7 +23,7 @@ git push
 ##### Создание, добавление удаленных репозиториев  
 ```git
 git init sql                                                # Создайте отдельный репозиторий для элемента портфолио. 
-git remote add sql https://github.com/rustamfox23/sql.git   # Объявить репозиторий удаленно 
+git remote add sql https://github.com/shilovegor/sql.git    # Объявить репозиторий удаленно 
 README.md                                                   # Добавьте ссылки на ваши репозитории в файл README.md
 git commit -m "commited change description"                 # Отправить изменения в удаленный репозиторий
 git push                                                     
